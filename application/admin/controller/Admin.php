@@ -8,7 +8,6 @@ class Admin extends Controller
 {
     public function index()
     {
-        dump(22);
         return $this->fetch();
     }
 }
