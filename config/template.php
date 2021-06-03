@@ -26,9 +26,9 @@ return [
     'view_depr'          => DIRECTORY_SEPARATOR,
     // 配置模板常量
     'tpl_replace_string' => [
-        '__JS__'     => config('app_host').'/static/js',
-        '__CSS__'    => config('app_host').'/static/css',
-        '__IMAGE__'  => config('app_host').'/static/image',
+        '__JS__'     => '/static/js',
+        '__CSS__'    => '/static/css',
+        '__IMAGE__'  => '/static/image',
         '__MODULE__' => '/static/module',
     ],
     // 模板引擎普通标签开始标记
